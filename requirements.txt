@@ -1,0 +1,10 @@
+pdfplumber
+PyMuPDF
+python-pptx
+sentence-transformers
+chromadb
+pandas
+openpyxl
+numpy
+requests
+tqdm

@@ -1,0 +1,68 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.env/
+.env.*
+.venv/
+
+# =========================
+# Data & Inputs (DO NOT COMMIT)
+# =========================
+data/
+raw_ppts/
+*.pdf
+*.ppt
+*.pptx
+
+# =========================
+# Outputs
+# =========================
+results.xlsx
+output/*.xlsx
+output/*.csv
+
+# =========================
+# Vector Databases
+# =========================
+chroma/
+chromadb/
+vector_store/chroma_data/
+
+# =========================
+# Logs & Debug
+# =========================
+*.log
+logs/
+debug.log
+
+# =========================
+# Jupyter / Experiments
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Model / Cache Artifacts
+# =========================
+.cache/
+.cache/**
+ollama/
